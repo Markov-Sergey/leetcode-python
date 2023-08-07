@@ -1,8 +1,6 @@
-# leetcode-python
-# reverse-linked-list
-# https://leetcode.com/problems/reverse-linked-list/
-# easy
-# Acceptance Rate 74.4%
+# leetcode-python/reverse-linked-list/
+
+Original problem (easy, acceptance rate 74.4%): https://leetcode.com/problems/reverse-linked-list/
 
 Given the head of a singly linked list, reverse the list, and return the reversed list.
 

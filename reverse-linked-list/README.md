@@ -6,13 +6,13 @@ Given the head of a singly linked list, reverse the list, and return the reverse
 
 ## Example 1:
 
-- Input: head = [1,2,3,4,5]
-- Output: [5,4,3,2,1]
+* Input: head = [1,2,3,4,5]
+* Output: [5,4,3,2,1]
 
 ## Example 2:
 
-+ Input: head = [1,2]
-+ Output: [2,1]
+* Input: head = [1,2]
+* Output: [2,1]
 
 ## Example 3:
 
@@ -21,8 +21,8 @@ Given the head of a singly linked list, reverse the list, and return the reverse
 
 ## Constraints:
 
-1. The number of nodes in the list is the range [0, 5000]
-2. -5000 <= Node.val <= 5000
+* The number of nodes in the list is the range [0, 5000]
+* -5000 <= Node.val <= 5000
 
 ## Follow up:
 
@@ -30,15 +30,24 @@ A linked list can be reversed either iteratively or recursively. Could you imple
 
 ## Python source code:
 
-    #Definition for singly-linked list.
-    class ListNode(object):
-        def __init__(self, val=0, next=None):
-            self.val = val
-            self.next = next
-
+    # Definition for singly-linked list.
+    # class ListNode(object):
+    #     def __init__(self, val=0, next=None):
+    #         self.val = val
+    #         self.next = next
     class Solution(object):
         def reverseList(self, head):
         """
         :type head: ListNode
         :rtype: ListNode
         """
+
+## Python3 source code:
+
+    # Definition for singly-linked list.
+    # class ListNode:
+    #     def __init__(self, val=0, next=None):
+    #         self.val = val
+    #         self.next = next
+    class Solution:
+        def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
